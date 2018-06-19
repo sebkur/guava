@@ -1262,7 +1262,7 @@ class MapMakerInternalMap<
      * implementation type.
      *
      * <p>This method is provided as a convenience for tests. Otherwise they'd need to be
-     * knowledgable about all the implementation details of our type system trickery.
+     * knowledgeable about all the implementation details of our type system trickery.
      */
     abstract E castForTesting(InternalEntry<K, V, ?> entry);
 
